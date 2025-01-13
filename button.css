@@ -82,3 +82,20 @@
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
 }
+.storeLink {
+  position: relative;
+  display: inline-block;
+  width: 240px;
+  height: 80px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: black;
+}
+.storeLink > img {
+  --width: 100%;
+  position: absolute;
+  width: var(--width);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
